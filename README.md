@@ -1,15 +1,16 @@
 # Artificial Neural Networks Projects
 
+This repository collects small, self-contained Jupyter notebooks demonstrating neural network workflows for common supervised learning tasks: regression and classification. Each notebook includes data loading, preprocessing, model building, training, evaluation and visualization.
+
+Projects
+
 | Project No. | Project Name       | Notebook                                  | Dataset                                  |
 |------------:|--------------------|-------------------------------------------|------------------------------------------|
 | 1           | Walmart Sales      | [Walmart Notebook](walmart.ipynb)         | [Walmart Dataset](Datasets/Walmart.csv)  |
 | 2           | California Housing | [California Housing Notebook](california_housing.ipynb) | [California Housing Dataset](Datasets/housing.csv) |
 | 3           | Car Price          | [Car Price Notebook](car_price.ipynb)     | [Car Price Dataset](Datasets/car_price_prediction.csv) |
+| 4           | Heart Disease      | [Heart Disease Notebook](heart_disease.ipynb) | [Heart Disease Dataset](Datasets/heart_2020_cleaned.csv) |
 
-## Getting Started
+Datasets
 
-1. Clone the repository and open it in VS Code or Jupyter.
-2. Make sure you have Python and common ML libraries installed (for example: `numpy`, `pandas`, `matplotlib`, `scikit-learn`, and a deep learning library such as `tensorflow` or `torch`).
-3. Open any notebook from the table above.
-4. Select a Python kernel with the required packages available.
-5. Run the cells from top to bottom to reproduce the experiments.
+- All datasets are stored in the `Datasets/` folder. Use the CSV files directly from the notebooks.
